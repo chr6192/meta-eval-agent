@@ -1,0 +1,150 @@
+{
+  "task_id": "task_blog",
+  "grading_type": "hybrid",
+  "candidates": {
+    "qwenpaw__glm-5.1": {
+      "passed": false,
+      "score": 0.9100000000000001,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.file_created": 1.0,
+        "automated.word_count_target": 0.5,
+        "automated.has_structure": 1.0,
+        "automated.covers_remote_work": 1.0,
+        "automated.covers_dev_benefits": 1.0,
+        "llm_judge.content_quality": 1.0,
+        "llm_judge.structure": 1.0,
+        "llm_judge.writing_quality": 1.0,
+        "llm_judge.word_count": 0.5,
+        "llm_judge.task_completion": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__kimi-k2.6": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.file_created": 1.0,
+        "automated.word_count_target": 1.0,
+        "automated.has_structure": 1.0,
+        "automated.covers_remote_work": 1.0,
+        "automated.covers_dev_benefits": 1.0,
+        "llm_judge.Content Quality and Relevance": 1.0,
+        "llm_judge.Structure and Organization": 1.0,
+        "llm_judge.Writing Quality": 1.0,
+        "llm_judge.Word Count Compliance": 1.0,
+        "llm_judge.Task Completion": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-27b": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.file_created": 1.0,
+        "automated.word_count_target": 1.0,
+        "automated.has_structure": 1.0,
+        "automated.covers_remote_work": 1.0,
+        "automated.covers_dev_benefits": 1.0,
+        "llm_judge.content_quality": 1.0,
+        "llm_judge.structure_organization": 1.0,
+        "llm_judge.writing_quality": 1.0,
+        "llm_judge.word_count_compliance": 1.0,
+        "llm_judge.task_completion": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-35b-a3b": {
+      "passed": false,
+      "score": 0.955,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.file_created": 1.0,
+        "automated.word_count_target": 0.75,
+        "automated.has_structure": 1.0,
+        "automated.covers_remote_work": 1.0,
+        "automated.covers_dev_benefits": 1.0,
+        "llm_judge.Content Quality and Relevance": 1.0,
+        "llm_judge.Structure and Organization": 1.0,
+        "llm_judge.Writing Quality": 1.0,
+        "llm_judge.Word Count Compliance": 0.75,
+        "llm_judge.Task Completion": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-max-preview": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.file_created": 1.0,
+        "automated.word_count_target": 1.0,
+        "automated.has_structure": 1.0,
+        "automated.covers_remote_work": 1.0,
+        "automated.covers_dev_benefits": 1.0,
+        "llm_judge.Content Quality and Relevance": 1.0,
+        "llm_judge.Structure and Organization": 1.0,
+        "llm_judge.Writing Quality": 1.0,
+        "llm_judge.Word Count Compliance": 1.0,
+        "llm_judge.Task Completion": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-plus": {
+      "passed": false,
+      "score": 0.9100000000000001,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.file_created": 1.0,
+        "automated.word_count_target": 0.5,
+        "automated.has_structure": 1.0,
+        "automated.covers_remote_work": 1.0,
+        "automated.covers_dev_benefits": 1.0,
+        "llm_judge.criterion_1": 1.0,
+        "llm_judge.criterion_2": 1.0,
+        "llm_judge.criterion_3": 1.0,
+        "llm_judge.criterion_4": 0.5,
+        "llm_judge.criterion_5": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.7-max": {
+      "passed": false,
+      "score": 0.954,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.file_created": 1.0,
+        "automated.word_count_target": 0.75,
+        "automated.has_structure": 1.0,
+        "automated.covers_remote_work": 1.0,
+        "automated.covers_dev_benefits": 1.0,
+        "llm_judge.Content Quality and Relevance": 1.0,
+        "llm_judge.Structure and Organization": 1.0,
+        "llm_judge.Writing Quality": 1.0,
+        "llm_judge.Word Count Compliance": 0.75,
+        "llm_judge.Task Completion": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.7-plus": {
+      "passed": false,
+      "score": 0.97,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.file_created": 1.0,
+        "automated.word_count_target": 0.75,
+        "automated.has_structure": 1.0,
+        "automated.covers_remote_work": 1.0,
+        "automated.covers_dev_benefits": 1.0,
+        "llm_judge.Content Quality and Relevance": 1.0,
+        "llm_judge.Structure and Organization": 1.0,
+        "llm_judge.Writing Quality": 1.0,
+        "llm_judge.Word Count Compliance": 1.0,
+        "llm_judge.Task Completion": 1.0
+      },
+      "source": "framework_results"
+    }
+  }
+}

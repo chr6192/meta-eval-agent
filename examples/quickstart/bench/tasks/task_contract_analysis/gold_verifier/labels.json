@@ -1,0 +1,102 @@
+{
+  "task_id": "task_contract_analysis",
+  "grading_type": "llm_judge",
+  "candidates": {
+    "qwenpaw__glm-5.1": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "Key Dates Extraction": 1.0,
+        "Party Obligations Analysis": 1.0,
+        "Risk Identification and Legal Reasoning": 1.0,
+        "Financial Summary and Task Completion": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__kimi-k2.6": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "Key Dates Extraction": 1.0,
+        "Party Obligations Analysis": 1.0,
+        "Risk Identification and Legal Reasoning": 1.0,
+        "Financial Summary and Task Completion": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-27b": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "Key Dates Extraction": 1.0,
+        "Party Obligations Analysis": 1.0,
+        "Risk Identification and Legal Reasoning": 1.0,
+        "Financial Summary and Task Completion": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-35b-a3b": {
+      "passed": false,
+      "score": 0.925,
+      "max_score": 1.0,
+      "breakdown": {
+        "Key Dates Extraction": 1.0,
+        "Party Obligations Analysis": 1.0,
+        "Risk Identification and Legal Reasoning": 0.75,
+        "Financial Summary and Task Completion": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-max-preview": {
+      "passed": false,
+      "score": 0.86,
+      "max_score": 1.0,
+      "breakdown": {
+        "criterion_1_key_dates_extraction": 0.75,
+        "criterion_2_party_obligations_analysis": 1.0,
+        "criterion_3_risk_identification_and_legal_reasoning": 0.75,
+        "criterion_4_financial_summary_and_task_completion": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-plus": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "Key Dates Extraction": 1.0,
+        "Party Obligations Analysis": 1.0,
+        "Risk Identification and Legal Reasoning": 1.0,
+        "Financial Summary and Task Completion": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.7-max": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "Key Dates Extraction": 1.0,
+        "Party Obligations Analysis": 1.0,
+        "Risk Identification and Legal Reasoning": 1.0,
+        "Financial Summary and Task Completion": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.7-plus": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "criterion_1": 1.0,
+        "criterion_2": 1.0,
+        "criterion_3": 1.0,
+        "criterion_4": 1.0
+      },
+      "source": "framework_results"
+    }
+  }
+}

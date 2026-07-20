@@ -1,0 +1,45 @@
+{
+  "task_id": "task_gh_issue_triage",
+  "dimensions": [
+    {
+      "criterion": "tool_use",
+      "depends_on": "transcript",
+      "reachable": true
+    },
+    {
+      "criterion": "listed_issues",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "viewed_prs",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "read_detail",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "report_created",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "priorities_assigned",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "__llm_judge_overall__",
+      "depends_on": "llm-judgment",
+      "reachable": false
+    }
+  ],
+  "reachable_weight": 0.5,
+  "llm_judge_weight": 0.5,
+  "grader_reads_gt": false,
+  "needs_manual": true,
+  "extraction_method": "fallback"
+}

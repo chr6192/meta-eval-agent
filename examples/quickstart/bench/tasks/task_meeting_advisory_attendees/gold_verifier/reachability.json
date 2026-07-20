@@ -1,0 +1,60 @@
+{
+  "task_id": "task_meeting_advisory_attendees",
+  "dimensions": [
+    {
+      "criterion": "report_created",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "chair_identified",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "member_count",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "remote_attendees",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "officials_listed",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "organizations_included",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "attendance_mode",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "public_participant",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "summary_count",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "__llm_judge_overall__",
+      "depends_on": "llm-judgment",
+      "reachable": false
+    }
+  ],
+  "reachable_weight": 0.6,
+  "llm_judge_weight": 0.4,
+  "grader_reads_gt": false,
+  "needs_manual": true,
+  "extraction_method": "fallback"
+}

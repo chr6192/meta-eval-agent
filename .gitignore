@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+.DS_Store
+
+# 训练期内部工作产物（实验记录/调研笔记/内部分析 skill），不随代码公开分发
+docs/
+workspace/
+reference/
+
+# 过期/含本机个人路径的遗留文档
+verifier-author.md
+
+benchmark/verifier-author-bench-v1/tasks/
+
+origin_data/*
+!origin_data/SOURCES.md
+
+examples/quickstart/.sandbox/

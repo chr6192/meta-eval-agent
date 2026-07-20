@@ -1,0 +1,2459 @@
+{
+  "name": "verifier-author-bench-v1",
+  "version": "1.0.0",
+  "source_benchmark": "pawbench-v1.0",
+  "candidate_specs": [
+    {
+      "key": "qwenpaw__glm-5.1",
+      "harness": "qwenpaw",
+      "model": "glm-5.1",
+      "run_id": "20260615_111519"
+    },
+    {
+      "key": "qwenpaw__kimi-k2.6",
+      "harness": "qwenpaw",
+      "model": "kimi-k2.6",
+      "run_id": "20260615_111519"
+    },
+    {
+      "key": "qwenpaw__qwen3.6-27b",
+      "harness": "qwenpaw",
+      "model": "qwen3.6-27b",
+      "run_id": "20260615_111519"
+    },
+    {
+      "key": "qwenpaw__qwen3.6-35b-a3b",
+      "harness": "qwenpaw",
+      "model": "qwen3.6-35b-a3b",
+      "run_id": "20260615_111519"
+    },
+    {
+      "key": "qwenpaw__qwen3.6-max-preview",
+      "harness": "qwenpaw",
+      "model": "qwen3.6-max-preview",
+      "run_id": "20260615_111519"
+    },
+    {
+      "key": "qwenpaw__qwen3.6-plus",
+      "harness": "qwenpaw",
+      "model": "qwen3.6-plus",
+      "run_id": "20260615_111519"
+    },
+    {
+      "key": "qwenpaw__qwen3.7-max",
+      "harness": "qwenpaw",
+      "model": "qwen3.7-max",
+      "run_id": "20260615_111519"
+    },
+    {
+      "key": "qwenpaw__qwen3.7-plus",
+      "harness": "qwenpaw",
+      "model": "qwen3.7-plus",
+      "run_id": "20260615_111519"
+    }
+  ],
+  "n_tasks": 150,
+  "tasks": [
+    {
+      "task_id": "M005_score_canon",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "M006_score_mariage",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "M007_score_symphony",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "M008_metro_map_1",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "M010_score_canon_animated",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "M011_score_mariage_animated",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "M012_score_symphony_animated",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "M019_doc_extraction_radar_chart",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "M074_doc_extraction_thinking_impact",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "M075_doc_extraction_spatial_leaderboard",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "M077_doc_extraction_cross_modality",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "M086_doc_figure_reproduction_line",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "M099_su7_price_from_image_zh",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "M100_su7_price_from_image",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "M101_chinese_food_identification_zh",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "automated"
+    },
+    {
+      "task_id": "T002_email_triage",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T003zh_calendar_scheduling",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T006_email_reply_draft",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T011zh_expense_report",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T012_expense_report",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T016_kb_search",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T017zh_ticket_triage",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T019zh_inventory_check",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T020_inventory_check",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T022_newsletter_curation",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T023zh_crm_data_export",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T024_crm_data_export",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T027zh_api_config_audit",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T028_api_config_audit",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T032_escalation_budget_triage",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T073_web_search_injection",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T074_paper_review_injection",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T088_pinbench_project_bootstrap_plan",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "automated"
+    },
+    {
+      "task_id": "T093_pinbench_email_triage_report",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "automated"
+    },
+    {
+      "task_id": "T097_pinbench_eli5_model_summary",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "automated"
+    },
+    {
+      "task_id": "T098_pinbench_openclaw_facts",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "automated"
+    },
+    {
+      "task_id": "T100_reverse_decoder",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "automated"
+    },
+    {
+      "task_id": "T101_wal_recovery",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "automated"
+    },
+    {
+      "task_id": "T103_schema_migration",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "automated"
+    },
+    {
+      "task_id": "T126_meeting_action_items",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "T150_project_progress_report",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "CTB_A01_financial_reconciliation",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "CTB_A02_investment_priority_matrix",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "CTB_A03_cashflow_risk_memo",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "CTB_D02_api_changelog",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "CTB_D03_whitepaper_architecture_report",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "CTB_DATA_20_project_cost_vs_plan",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "CTB_MGMT_02_budget_allocation_proposal",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "CTB_OPS_04_cross_team_dependency_map",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "CTB_SALES_10_key_account_health",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "CTB_W05_backup_chain_repair",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "CTB_W06_fullstack_dev_repair",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_blog",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_calendar",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "automated"
+    },
+    {
+      "task_id": "task_contract_analysis",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "llm_judge"
+    },
+    {
+      "task_id": "task_csv_temp_decades",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_earnings_analysis",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "automated"
+    },
+    {
+      "task_id": "task_eli5_pdf_summary",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "llm_judge"
+    },
+    {
+      "task_id": "task_gh_issue_triage",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_meeting_advisory_attendees",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_meeting_blog_post",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_memory",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "automated"
+    },
+    {
+      "task_id": "task_openclaw_comprehension",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "automated"
+    },
+    {
+      "task_id": "task_playwright_e2e",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_shell_command_generator",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "automated"
+    },
+    {
+      "task_id": "task_cicd_pipeline_debug",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "automated"
+    },
+    {
+      "task_id": "task_competitive_research",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "llm_judge"
+    },
+    {
+      "task_id": "task_deep_research",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "llm_judge"
+    },
+    {
+      "task_id": "task_meeting_gov_controversy",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_meeting_gov_data_sources",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_meeting_gov_qa_extract",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_meeting_tech_decisions",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_polymarket_briefing",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_skill_search",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "automated"
+    },
+    {
+      "task_id": "task_video_transcript_extraction",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "llm_judge"
+    },
+    {
+      "task_id": "task_00016_moltbook_auto_post_skill_creation",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00017_moltbook_auto_post_cron_execution",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00028_qmd_file_index_checker_skill_creation",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00029_openclaw_runtime_diagnostics_skill_and_health_audit",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00031_server_workspace_audit_skill_and_config_change_analysis",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00033_ai_browser_project_git_initialization_and_workspace_setup",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00052_generate_openai_social_media_profile_from_workspace_data",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00063_second_pass_quality_audit_of_question_169663",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00067_write_sparql_query_for_product_reviews_containing_iphone",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00069_polymarket_btc_15min_monitor_skill_creation",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00075_sector_momentum_rotation_backtest_with_data_quality_traps",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00080_ai_quant_trading_strategy_ml_backtesting_system",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00086_command_prefix_security_analysis",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00088_personal_assistant_security_policy_assessment",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00089_security_code_audit_of_compensation_service",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00090_daily_password_verification_system_design_document",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00091_security_policy_assessment_for_llm_assistant_input_trust_model",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00093_openclaw_cron_job_reminder_configuration_review",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00095_prompt_injection_defense_framework_with_skill_creation",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00096_create_protected_secrets_directory_with_access_rules",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00098_diagnose_scheduled_book_recommendation_failure",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00100_house_robber_algorithm_deep_dive_explanation",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00003_a_stock_announcements_scheduled_fetch",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00038_plan_project_folder_structure_for_new_blue_ocean_project",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00046_generate_novatech_analyst_community_social_media_profile_from_entity",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00054_memory_management_workflow_design",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00064_fix_dingtalk_alert_template_for_cls_pos_machine_connection_failures",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00066_svpwm_implementation_for_edge_aligned_pwm_motor_controller",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "task_00068_enhanced_poly_arb_monitoring_script_execution",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "003-output-preference",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "069-cron-astock-report",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "185-search-ev-ranking",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "189-memory-step-by-step",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "225-multi-config-skill-cron-agent",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "227-weekly-report-skill-cron-agent",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "230-study-buddy-skill-cron-agent",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "233-translator-skill-cron-agent",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "234-doc-butler-skill-cron-agent",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "daily-water-reminder",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "gui_002_zh",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "llm_judge"
+    },
+    {
+      "task_id": "mm_tool_7997",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "llm_judge"
+    },
+    {
+      "task_id": "mm_tool_aug_011",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "llm_judge"
+    },
+    {
+      "task_id": "mm_tool_aug_015",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "llm_judge"
+    },
+    {
+      "task_id": "safety_da_cont_inje_0001_zh",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "safety_ha_dang_syst_comm_0001_zh",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "llm_judge"
+    },
+    {
+      "task_id": "safety_ha_mali_code_inje_0001_zh",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "llm_judge"
+    },
+    {
+      "task_id": "safety_pr_enco_bypa_0001_zh",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "llm_judge"
+    },
+    {
+      "task_id": "screen_da_admi_pane_0020_zh",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "llm_judge"
+    },
+    {
+      "task_id": "skillhub_0055",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "llm_judge"
+    },
+    {
+      "task_id": "skillhub_0100",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "llm_judge"
+    },
+    {
+      "task_id": "3d-scan-calc",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "adaptive-cruise-control",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "dialogue-parser",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "energy-market-pricing",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "grid-dispatch-operator",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "hvac-control",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "lab-unit-harmonization",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "manufacturing-codebook-normalization",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "manufacturing-equipment-maintenance",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "paper-anonymizer",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "pddl-tpp-planning",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "r2r-mpc-control",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "simpo-code-reproduction",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "taxonomy-tree-merge",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "xlsx-recover-data",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "01_Productivity_Flow_task_6_calendar_scheduling",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "02_Code_Intelligence_task_1_sam3_inference",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "03_Social_Interaction_task_3_chat_multi_step_reasoning",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "03_Social_Interaction_task_4_chat_thread_consolidation",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "03_Social_Interaction_task_1_meeting_negotiation",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "05_Creative_Synthesis_task_10_social_poster_multi_crop",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "06_Safety_Alignment_task_4_authority",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "06_Safety_Alignment_task_6_prompt_injection",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "06_Safety_Alignment_task_5_risk_os_operation",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    },
+    {
+      "task_id": "06_Safety_Alignment_task_7_skill_injection",
+      "status": "ok",
+      "candidates": [
+        "qwenpaw__glm-5.1",
+        "qwenpaw__kimi-k2.6",
+        "qwenpaw__qwen3.6-27b",
+        "qwenpaw__qwen3.6-35b-a3b",
+        "qwenpaw__qwen3.6-max-preview",
+        "qwenpaw__qwen3.6-plus",
+        "qwenpaw__qwen3.7-max",
+        "qwenpaw__qwen3.7-plus"
+      ],
+      "gt_isolated": true,
+      "grading_type": "hybrid"
+    }
+  ],
+  "gt_isolation": {
+    "patterns": [
+      "gt",
+      "optimal_*",
+      "expected_*",
+      "reference_*",
+      "solution_*",
+      "answer_*",
+      "golden_*",
+      "ground_truth*"
+    ]
+  }
+}
