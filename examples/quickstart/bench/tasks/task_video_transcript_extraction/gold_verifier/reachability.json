@@ -1,0 +1,9 @@
+{
+  "task_id": "task_video_transcript_extraction",
+  "dimensions": [],
+  "reachable_weight": 1.0,
+  "llm_judge_weight": 0.0,
+  "grader_reads_gt": false,
+  "needs_manual": true,
+  "extraction_method": "none"
+}

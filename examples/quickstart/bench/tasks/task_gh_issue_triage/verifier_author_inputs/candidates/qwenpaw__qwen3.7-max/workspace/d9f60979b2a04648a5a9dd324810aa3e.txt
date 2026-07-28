@@ -1,0 +1,77 @@
+======================================================================
+OPEN ISSUES
+======================================================================
+
+#1: CRITICAL: SQL Injection vulnerability in login endpoint
+  Author: security_researcher | Labels: security, critical, bug
+  Created: 2026-06-10T14:23:00Z | Comments: 1
+  Preview: ## Description  The `/api/login` endpoint is vulnerable to SQL injection. The username and password are directly interpolated into the SQL query without sanitization.  ## Vulnerable Code  ```python cu...
+
+#2: Admin endpoint exposes user passwords in plaintext
+  Author: security_researcher | Labels: security, critical, bug
+  Created: 2026-06-10T14:30:00Z | Comments: 0
+  Preview: ## Description  The `/api/admin/users` endpoint returns user objects that include the `password` field. Even though passwords are stored as MD5 hashes, exposing them is a serious security issue.  ## V...
+
+#3: DELETE /api/tasks allows deleting any task without authentication
+  Author: qa_tester | Labels: security, bug
+  Created: 2026-06-11T09:15:00Z | Comments: 0
+  Preview: ## Description  The task deletion endpoint has no authentication check. Any anonymous user can delete any task by sending a DELETE request.  ## Steps to Reproduce  1. Send DELETE to `/api/tasks/1` wit...
+
+#4: Database connection not properly closed - connection leak
+  Author: backend_dev | Labels: bug, performance
+  Created: 2026-06-12T11:00:00Z | Comments: 1
+  Preview: ## Description  The `get_db()` function creates a new database connection for each request, but connections are never closed. This leads to connection leaks and eventually the application crashes unde...
+
+#5: Hardcoded SECRET_KEY and debug mode enabled in production
+  Author: devops_engineer | Labels: security, configuration
+  Created: 2026-06-12T16:45:00Z | Comments: 0
+  Preview: ## Description  The application has several configuration issues:  1. `SECRET_KEY = "supersecret123"` is hardcoded in the source code 2. `app.run(debug=True)` is enabled, which exposes the Werkzeug de...
+
+#6: Add rate limiting to API endpoints
+  Author: backend_dev | Labels: enhancement, security
+  Created: 2026-06-13T08:00:00Z | Comments: 0
+  Preview: ## Description  The API has no rate limiting, making it vulnerable to: - Brute force attacks on the login endpoint - DoS attacks - API abuse  ## Suggested Implementation  Use Flask-Limiter or a simila...
+
+#7: Add input validation for task creation
+  Author: qa_tester | Labels: bug, enhancement
+  Created: 2026-06-13T10:30:00Z | Comments: 0
+  Preview: ## Description  There's no input validation when creating tasks. Users can submit: - Empty titles - Extremely long descriptions (>100KB) - XSS payloads in task fields  ## Expected Behavior  - Title: r...
+
+#8: Update outdated dependencies with known vulnerabilities
+  Author: dependabot[bot] | Labels: dependencies, security
+  Created: 2026-06-14T00:00:00Z | Comments: 0
+  Preview: ## Dependency Security Alert  The following dependencies have known security vulnerabilities:  | Package | Current | Latest | CVE | |---------|---------|--------|-----| | flask | 2.0.1 | 3.0.0 | CVE-2...
+
+#9: Add API documentation with OpenAPI/Swagger
+  Author: frontend_dev | Labels: documentation, enhancement
+  Created: 2026-06-14T14:00:00Z | Comments: 0
+  Preview: ## Description  The API lacks documentation. Frontend developers have to read the source code to understand the available endpoints, request/response formats, and error codes.  ## Suggested Solution  ...
+
+#10: MD5 password hashing is insecure - migrate to bcrypt
+  Author: security_researcher | Labels: security, enhancement
+  Created: 2026-06-14T16:00:00Z | Comments: 0
+  Preview: ## Description  The application uses MD5 for password hashing, which is considered cryptographically broken. MD5 hashes can be cracked in seconds using modern hardware and rainbow tables.  ## Current ...
+
+======================================================================
+OPEN PULL REQUESTS
+======================================================================
+
+#11: Fix SQL injection in login endpoint
+  Author: backend_dev | Labels: security, bugfix
+  Created: 2026-06-11T10:00:00Z | Comments: 2
+  Changes: +45 -12 across 3 files
+  Preview: ## Summary  Fixes #1 - SQL Injection vulnerability in login endpoint.  ## Changes  - Replaced string interpolation with parameterized queries - Added input validation for username/password fields  ## ...
+
+#12: Add WebSocket support for real-time notifications
+  Author: frontend_dev | Labels: enhancement, feature
+  Created: 2026-06-13T15:00:00Z | Comments: 1
+  Changes: +230 -5 across 8 files
+  Preview: ## Summary  Adds WebSocket support for real-time task notifications using Flask-SocketIO.  ## Features  - Real-time notifications when tasks are created/updated/deleted - WebSocket authentication usin...
+
+#13: Add unit test suite with pytest
+  Author: qa_tester | Labels: testing, enhancement
+  Created: 2026-06-14T09:00:00Z | Comments: 0
+  Changes: +450 -0 across 6 files
+  Preview: ## Summary  Adds a comprehensive test suite using pytest.  ## Coverage  - Login endpoint tests (including SQL injection prevention) - Task CRUD endpoint tests - Authentication middleware tests - Input...
+
+Total: 10 issues, 3 PRs

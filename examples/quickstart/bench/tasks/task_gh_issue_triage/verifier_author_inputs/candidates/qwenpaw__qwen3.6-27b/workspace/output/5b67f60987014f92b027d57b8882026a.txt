@@ -1,0 +1,102 @@
+=== OPEN PULL REQUESTS ===
+[
+    {
+        "id": 101,
+        "number": 42,
+        "title": "Fix database connection pool leak by implementing proper cleanup",
+        "state": "open",
+        "labels": [
+            {
+                "name": "bug",
+                "color": "d73a4a"
+            },
+            {
+                "name": "priority:high",
+                "color": "c5def5"
+            }
+        ],
+        "created_at": "2026-06-15T06:00:00Z",
+        "updated_at": "2026-06-15T09:30:00Z",
+        "body": "This PR fixes the database connection pool leak described in #1.\n\n**Changes:**\n- Added proper connection release in finally blocks for all database operations\n- Implemented connection pool health monitoring with alerts at 80% capacity\n- Added unit tests for connection lifecycle\n\n**Related to:** #1\n\n**Testing:** Load tested with 1000 concurrent connections for 2 hours - no connection leaks observed.",
+        "user": {
+            "login": "backend-senior-dev",
+            "id": 107
+        },
+        "comments": 4,
+        "merged": false,
+        "mergeable": true,
+        "draft": false,
+        "additions": 145,
+        "deletions": 23,
+        "changed_files": 8,
+        "reviewers": [
+            {
+                "login": "tech-lead",
+                "state": "APPROVED"
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "number": 43,
+        "title": "Update Node.js to v20 in CI/CD pipeline",
+        "state": "open",
+        "labels": [
+            {
+                "name": "devops",
+                "color": "0075ca"
+            }
+        ],
+        "created_at": "2026-06-15T10:00:00Z",
+        "updated_at": "2026-06-15T10:15:00Z",
+        "body": "Bumps Node.js version from 16 to 20 in all CI/CD workflows.\n\n**Changes:**\n- Updated `.github/workflows/ci.yml`\n- Updated `.github/workflows/deploy.yml`\n- Updated `Dockerfile` base image\n- Added Node.js 20 compatibility notes\n\n**Related to:** #5\n\n**Testing:** All tests pass on Node.js 20.",
+        "user": {
+            "login": "devops-engineer",
+            "id": 105
+        },
+        "comments": 1,
+        "merged": false,
+        "mergeable": true,
+        "draft": false,
+        "additions": 12,
+        "deletions": 8,
+        "changed_files": 3,
+        "reviewers": []
+    },
+    {
+        "id": 103,
+        "number": 44,
+        "title": "Implement OAuth2 token scope validation fix",
+        "state": "open",
+        "labels": [
+            {
+                "name": "security",
+                "color": "d73a4a"
+            },
+            {
+                "name": "priority:high",
+                "color": "c5def5"
+            }
+        ],
+        "created_at": "2026-06-14T17:00:00Z",
+        "updated_at": "2026-06-15T07:00:00Z",
+        "body": "This PR addresses the OAuth2 token validation vulnerability described in #2.\n\n**Changes:**\n- Added strict scope validation for refresh token fallback\n- Implemented token scope inheritance rules\n- Added comprehensive security test suite\n- Added audit logging for all token validations\n\n**Related to:** #2\n\n**Security Review:** Required before merge.\n\n**Testing:** Added 15 new security test cases, all passing.",
+        "user": {
+            "login": "security-contractor",
+            "id": 102
+        },
+        "comments": 6,
+        "merged": false,
+        "mergeable": true,
+        "draft": false,
+        "additions": 230,
+        "deletions": 15,
+        "changed_files": 12,
+        "reviewers": [
+            {
+                "login": "backend-senior-dev",
+                "state": "COMMENTED"
+            }
+        ]
+    }
+]

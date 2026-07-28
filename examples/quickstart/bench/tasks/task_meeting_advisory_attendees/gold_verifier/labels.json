@@ -1,0 +1,174 @@
+{
+  "task_id": "task_meeting_advisory_attendees",
+  "grading_type": "hybrid",
+  "candidates": {
+    "qwenpaw__glm-5.1": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.chair_identified": 1.0,
+        "automated.member_count": 1.0,
+        "automated.remote_attendees": 1.0,
+        "automated.officials_listed": 1.0,
+        "automated.organizations_included": 1.0,
+        "automated.attendance_mode": 1.0,
+        "automated.public_participant": 1.0,
+        "automated.summary_count": 1.0,
+        "llm_judge.Completeness of Attendee Identification": 1.0,
+        "llm_judge.Accuracy of Details": 1.0,
+        "llm_judge.Organization and Structure": 1.0,
+        "llm_judge.Speaking Role Assessment": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__kimi-k2.6": {
+      "passed": false,
+      "score": 0.9053333333333333,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.chair_identified": 0.0,
+        "automated.member_count": 1.0,
+        "automated.remote_attendees": 1.0,
+        "automated.officials_listed": 1.0,
+        "automated.organizations_included": 1.0,
+        "automated.attendance_mode": 1.0,
+        "automated.public_participant": 1.0,
+        "automated.summary_count": 1.0,
+        "llm_judge.Completeness of Attendee Identification": 1.0,
+        "llm_judge.Accuracy of Details": 0.75,
+        "llm_judge.Organization and Structure": 1.0,
+        "llm_judge.Speaking Role Assessment": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-27b": {
+      "passed": false,
+      "score": 0.98,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.chair_identified": 1.0,
+        "automated.member_count": 1.0,
+        "automated.remote_attendees": 1.0,
+        "automated.officials_listed": 1.0,
+        "automated.organizations_included": 1.0,
+        "automated.attendance_mode": 1.0,
+        "automated.public_participant": 1.0,
+        "automated.summary_count": 1.0,
+        "llm_judge.Completeness of Attendee Identification": 1.0,
+        "llm_judge.Accuracy of Details": 1.0,
+        "llm_judge.Organization and Structure": 0.75,
+        "llm_judge.Speaking Role Assessment": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-35b-a3b": {
+      "passed": false,
+      "score": 0.8640000000000001,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.chair_identified": 1.0,
+        "automated.member_count": 1.0,
+        "automated.remote_attendees": 0.5,
+        "automated.officials_listed": 1.0,
+        "automated.organizations_included": 1.0,
+        "automated.attendance_mode": 1.0,
+        "automated.public_participant": 0.0,
+        "automated.summary_count": 1.0,
+        "llm_judge.criterion_1": 0.75,
+        "llm_judge.criterion_2": 1.0,
+        "llm_judge.criterion_3": 1.0,
+        "llm_judge.criterion_4": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-max-preview": {
+      "passed": false,
+      "score": 0.9666666666666667,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.chair_identified": 1.0,
+        "automated.member_count": 1.0,
+        "automated.remote_attendees": 0.5,
+        "automated.officials_listed": 1.0,
+        "automated.organizations_included": 1.0,
+        "automated.attendance_mode": 1.0,
+        "automated.public_participant": 1.0,
+        "automated.summary_count": 1.0,
+        "llm_judge.Completeness of Attendee Identification": 1.0,
+        "llm_judge.Accuracy of Details": 1.0,
+        "llm_judge.Organization and Structure": 1.0,
+        "llm_judge.Speaking Role Assessment": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-plus": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.chair_identified": 1.0,
+        "automated.member_count": 1.0,
+        "automated.remote_attendees": 1.0,
+        "automated.officials_listed": 1.0,
+        "automated.organizations_included": 1.0,
+        "automated.attendance_mode": 1.0,
+        "automated.public_participant": 1.0,
+        "automated.summary_count": 1.0,
+        "llm_judge.Completeness of Attendee Identification": 1.0,
+        "llm_judge.Accuracy of Details": 1.0,
+        "llm_judge.Organization and Structure": 1.0,
+        "llm_judge.Speaking Role Assessment": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.7-max": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.chair_identified": 1.0,
+        "automated.member_count": 1.0,
+        "automated.remote_attendees": 1.0,
+        "automated.officials_listed": 1.0,
+        "automated.organizations_included": 1.0,
+        "automated.attendance_mode": 1.0,
+        "automated.public_participant": 1.0,
+        "automated.summary_count": 1.0,
+        "llm_judge.Completeness of Attendee Identification": 1.0,
+        "llm_judge.Accuracy of Details": 1.0,
+        "llm_judge.Organization and Structure": 1.0,
+        "llm_judge.Speaking Role Assessment": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.7-plus": {
+      "passed": false,
+      "score": 0.9666666666666667,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.chair_identified": 1.0,
+        "automated.member_count": 1.0,
+        "automated.remote_attendees": 0.5,
+        "automated.officials_listed": 1.0,
+        "automated.organizations_included": 1.0,
+        "automated.attendance_mode": 1.0,
+        "automated.public_participant": 1.0,
+        "automated.summary_count": 1.0,
+        "llm_judge.Completeness of Attendee Identification": 1.0,
+        "llm_judge.Accuracy of Details": 1.0,
+        "llm_judge.Organization and Structure": 1.0,
+        "llm_judge.Speaking Role Assessment": 1.0
+      },
+      "source": "framework_results"
+    }
+  }
+}

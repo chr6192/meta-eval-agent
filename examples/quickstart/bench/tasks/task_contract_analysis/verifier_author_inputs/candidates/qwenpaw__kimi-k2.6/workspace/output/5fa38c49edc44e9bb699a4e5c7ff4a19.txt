@@ -1,0 +1,176 @@
+2 J
+0.57 w
+BT /F1 16.00 Tf ET
+BT 155.85 791.74 Td (SOFTWARE SERVICES AGREEMENT) Tj ET
+BT /F2 10.00 Tf ET
+BT 229.83 756.69 Td (Contract No. SSA-2024-09172) Tj ET
+q BT 31.18 718.42 Td 0.982 Tw (This Software Services Agreement \("Agreement"\) is entered into as of September 15, 2024 \("Effective Date"\), by and) Tj ET Q
+BT 31.18 704.24 Td (between:) Tj ET
+q BT 31.18 681.57 Td 2.079 Tw (Pinnacle Digital Solutions, Inc., a Delaware corporation with its principal office at 450 Innovation Drive, Suite 300,) Tj ET Q
+BT 31.18 667.39 Td (Austin, TX 78701 \("Provider"\);) Tj ET
+BT 31.18 644.72 Td (and) Tj ET
+q BT 31.18 622.04 Td 1.385 Tw (GreenLeaf Enterprises, LLC, a California limited liability company with its principal office at 1200 Market Street, San) Tj ET Q
+BT 31.18 607.87 Td (Francisco, CA 94103 \("Client"\).) Tj ET
+BT 31.18 585.19 Td (Provider and Client are individually referred to herein as a "Party" and collectively as the "Parties.") Tj ET
+BT /F1 12.00 Tf ET
+BT 31.18 557.66 Td (1. SCOPE OF SERVICES) Tj ET
+BT /F2 10.00 Tf ET
+q BT 31.18 534.17 Td 2.737 Tw (1.1 Provider shall design, develop, and deploy a custom enterprise resource planning \(ERP\) platform for Client,) Tj ET Q
+q BT 31.18 519.99 Td 4.490 Tw (including modules for inventory management, order processing, financial reporting, and customer relationship) Tj ET Q
+BT 31.18 505.82 Td (management \(the "Services"\).) Tj ET
+q BT 31.18 483.14 Td 1.126 Tw (1.2 The detailed specifications, milestones, and deliverables for the Services are set forth in Exhibit A \("Statement of) Tj ET Q
+BT 31.18 468.97 Td (Work"\), which is incorporated herein by reference.) Tj ET
+q BT 31.18 446.29 Td 2.775 Tw (1.3 Provider shall assign a dedicated project manager who will serve as the primary point of contact for Client) Tj ET Q
+BT 31.18 432.12 Td (throughout the engagement.) Tj ET
+BT /F1 12.00 Tf ET
+BT 31.18 404.59 Td (2. TERM AND KEY MILESTONES) Tj ET
+BT /F2 10.00 Tf ET
+q BT 31.18 381.09 Td 0.157 Tw (2.1 This Agreement shall commence on the Effective Date \(September 15, 2024\) and shall continue until the completion) Tj ET Q
+BT 31.18 366.92 Td (of all Services, unless earlier terminated in accordance with Section 9 of this Agreement.) Tj ET
+BT 31.18 344.24 Td (2.2 The Parties agree to the following key milestones:) Tj ET
+BT 31.18 330.07 Td (  \(a\) Requirements Gathering Phase: September 15, 2024 - November 30, 2024) Tj ET
+BT 31.18 315.90 Td (  \(b\) Design and Architecture Phase: December 1, 2024 - January 31, 2025) Tj ET
+BT 31.18 301.72 Td (  \(c\) Development Phase 1 \(Core Modules\): February 1, 2025 - May 31, 2025) Tj ET
+BT 31.18 287.55 Td (  \(d\) Development Phase 2 \(Integration & Testing\): June 1, 2025 - August 31, 2025) Tj ET
+BT 31.18 273.38 Td (  \(e\) User Acceptance Testing: September 1, 2025 - October 15, 2025) Tj ET
+BT 31.18 259.20 Td (  \(f\) Production Deployment: November 1, 2025) Tj ET
+BT 31.18 245.03 Td (  \(g\) Post-Launch Support Period: November 1, 2025 - April 30, 2026) Tj ET
+q BT 31.18 222.35 Td 0.174 Tw (2.3 If Provider fails to meet any milestone by more than thirty \(30\) calendar days, Client shall have the right to \(i\) require) Tj ET Q
+q BT 31.18 208.18 Td 0.398 Tw (Provider to submit a remediation plan within ten \(10\) business days, or \(ii\) terminate this Agreement for cause pursuant) Tj ET Q
+BT 31.18 194.01 Td (to Section 9.2.) Tj ET
+BT /F1 12.00 Tf ET
+BT 31.18 166.48 Td (3. COMPENSATION AND PAYMENT TERMS) Tj ET
+BT /F2 10.00 Tf ET
+q BT 31.18 142.98 Td 2.095 Tw (3.1 Client shall pay Provider a total fixed fee of $2,400,000 \(Two Million Four Hundred Thousand Dollars\) for the) Tj ET Q
+BT 31.18 128.81 Td (Services, payable in installments as follows:) Tj ET
+BT 31.18 114.64 Td (  \(a\) $360,000 upon execution of this Agreement \(due September 30, 2024\)) Tj ET
+BT 31.18 100.46 Td (  \(b\) $360,000 upon completion of the Design and Architecture Phase \(due February 15, 2025\)) Tj ET
+BT 31.18 86.29 Td (  \(c\) $600,000 upon completion of Development Phase 1 \(due June 15, 2025\)) Tj ET
+
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+BT 31.18 803.46 Td (  \(d\) $480,000 upon completion of Development Phase 2 \(due September 15, 2025\)) Tj ET
+BT 31.18 789.28 Td (  \(e\) $360,000 upon successful completion of User Acceptance Testing \(due November 1, 2025\)) Tj ET
+BT 31.18 775.11 Td (  \(f\) $240,000 upon conclusion of Post-Launch Support \(due May 15, 2026\)) Tj ET
+q BT 31.18 752.43 Td 0.525 Tw (3.2 All invoices shall be payable within thirty \(30\) days of receipt. Late payments shall accrue interest at a rate of 1.5%) Tj ET Q
+BT 31.18 738.26 Td (per month, or the maximum rate permitted by law, whichever is less.) Tj ET
+q BT 31.18 715.58 Td 0.660 Tw (3.3 Client may withhold up to 10% of each milestone payment as a retainage, to be released upon final acceptance of) Tj ET Q
+BT 31.18 701.41 Td (the complete deliverable set.) Tj ET
+BT /F1 12.00 Tf ET
+BT 31.18 673.88 Td (4. INTELLECTUAL PROPERTY RIGHTS) Tj ET
+BT /F2 10.00 Tf ET
+q BT 31.18 650.39 Td 0.481 Tw (4.1 All custom software, documentation, and other work product developed by Provider specifically for Client under this) Tj ET Q
+q BT 31.18 636.21 Td 0.374 Tw (Agreement \("Custom Work Product"\) shall be owned exclusively by Client upon full payment of all fees owed under this) Tj ET Q
+BT 31.18 622.04 Td (Agreement.) Tj ET
+q BT 31.18 599.36 Td 0.061 Tw (4.2 Provider retains all rights, title, and interest in and to any pre-existing tools, libraries, frameworks, and methodologies) Tj ET Q
+q BT 31.18 585.19 Td 2.466 Tw (used in performance of the Services \("Provider Tools"\). Provider hereby grants Client a perpetual, non-exclusive,) Tj ET Q
+q BT 31.18 571.02 Td 1.559 Tw (royalty-free license to use any Provider Tools incorporated into the Custom Work Product, solely in connection with) Tj ET Q
+BT 31.18 556.84 Td (Client's use of the Custom Work Product.) Tj ET
+q BT 31.18 534.17 Td 0.447 Tw (4.3 Client shall not reverse-engineer, decompile, or disassemble any Provider Tools without the prior written consent of) Tj ET Q
+BT 31.18 519.99 Td (Provider.) Tj ET
+BT /F1 12.00 Tf ET
+BT 31.18 492.46 Td (5. CONFIDENTIALITY) Tj ET
+BT /F2 10.00 Tf ET
+q BT 31.18 468.97 Td 0.592 Tw (5.1 "Confidential Information" means all non-public information disclosed by either Party to the other in connection with) Tj ET Q
+q BT 31.18 454.80 Td 1.036 Tw (this Agreement, including but not limited to business plans, technical data, trade secrets, customer lists, and financial) Tj ET Q
+BT 31.18 440.62 Td (information.) Tj ET
+q BT 31.18 417.95 Td 1.340 Tw (5.2 Each Party agrees to \(i\) hold the other Party's Confidential Information in strict confidence, \(ii\) not disclose such) Tj ET Q
+q BT 31.18 403.77 Td 1.725 Tw (information to any third party without prior written consent, and \(iii\) use such information solely for the purposes of) Tj ET Q
+BT 31.18 389.60 Td (performing under this Agreement.) Tj ET
+q BT 31.18 366.92 Td 0.551 Tw (5.3 The obligations of confidentiality shall survive the termination or expiration of this Agreement for a period of five \(5\)) Tj ET Q
+BT 31.18 352.75 Td (years.) Tj ET
+BT /F1 12.00 Tf ET
+BT 31.18 325.22 Td (6. DATA PROTECTION AND SECURITY) Tj ET
+BT /F2 10.00 Tf ET
+q BT 31.18 301.72 Td 0.737 Tw (6.1 Provider shall implement and maintain administrative, technical, and physical safeguards in compliance with \(i\) the) Tj ET Q
+q BT 31.18 287.55 Td 0.739 Tw (California Consumer Privacy Act \(CCPA\), \(ii\) the General Data Protection Regulation \(GDPR\) to the extent applicable,) Tj ET Q
+BT 31.18 273.38 Td (and \(iii\) SOC 2 Type II standards.) Tj ET
+q BT 31.18 250.70 Td 0.084 Tw (6.2 Provider shall notify Client of any data breach or security incident involving Client data within forty-eight \(48\) hours of) Tj ET Q
+BT 31.18 236.53 Td (discovery.) Tj ET
+q BT 31.18 213.85 Td 0.713 Tw (6.3 Provider agrees to conduct annual third-party security audits and share the results with Client upon request. Client) Tj ET Q
+q BT 31.18 199.68 Td 1.142 Tw (may also conduct its own security audit of Provider's systems with thirty \(30\) days' prior written notice, no more than) Tj ET Q
+BT 31.18 185.50 Td (once per calendar year.) Tj ET
+BT /F1 12.00 Tf ET
+BT 31.18 157.98 Td (7. WARRANTIES AND REPRESENTATIONS) Tj ET
+BT /F2 10.00 Tf ET
+q BT 31.18 134.48 Td 0.684 Tw (7.1 Provider warrants that \(i\) the Services will be performed in a professional and workmanlike manner consistent with) Tj ET Q
+q BT 31.18 120.31 Td 0.437 Tw (industry standards, \(ii\) the Custom Work Product will materially conform to the specifications in Exhibit A for a period of) Tj ET Q
+q BT 31.18 106.13 Td 0.912 Tw (twelve \(12\) months following final acceptance, and \(iii\) the Custom Work Product will not infringe upon the intellectual) Tj ET Q
+BT 31.18 91.96 Td (property rights of any third party.) Tj ET
+
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+q BT 31.18 803.46 Td 2.013 Tw (7.2 Client warrants that it has the authority to enter into this Agreement and will provide reasonable access to its) Tj ET Q
+BT 31.18 789.28 Td (systems, personnel, and information necessary for Provider to perform the Services.) Tj ET
+q BT 31.18 766.61 Td 0.814 Tw (7.3 EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, PROVIDER MAKES NO OTHER WARRANTIES,) Tj ET Q
+q BT 31.18 752.43 Td 0.791 Tw (EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY AND) Tj ET Q
+BT 31.18 738.26 Td (FITNESS FOR A PARTICULAR PURPOSE.) Tj ET
+BT /F1 12.00 Tf ET
+BT 31.18 710.73 Td (8. LIMITATION OF LIABILITY AND INDEMNIFICATION) Tj ET
+BT /F2 10.00 Tf ET
+q BT 31.18 687.24 Td 2.549 Tw (8.1 EXCEPT FOR BREACHES OF SECTIONS 4 \(INTELLECTUAL PROPERTY\), 5 \(CONFIDENTIALITY\), AND 6) Tj ET Q
+q BT 31.18 673.06 Td 2.313 Tw (\(DATA PROTECTION\), NEITHER PARTY'S TOTAL AGGREGATE LIABILITY UNDER THIS AGREEMENT SHALL) Tj ET Q
+BT 31.18 658.89 Td (EXCEED THE TOTAL FEES PAID OR PAYABLE BY CLIENT UNDER THIS AGREEMENT.) Tj ET
+q BT 31.18 636.21 Td 5.898 Tw (8.2 IN NO EVENT SHALL EITHER PARTY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,) Tj ET Q
+q BT 31.18 622.04 Td 5.448 Tw (CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFITS, LOST DATA, OR BUSINESS) Tj ET Q
+BT 31.18 607.87 Td (INTERRUPTION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.) Tj ET
+q BT 31.18 585.19 Td 1.512 Tw (8.3 Provider shall indemnify, defend, and hold harmless Client from any third-party claims arising from \(i\) Provider's) Tj ET Q
+q BT 31.18 571.02 Td 0.135 Tw (breach of its representations and warranties, \(ii\) any infringement of third-party intellectual property rights by the Custom) Tj ET Q
+BT 31.18 556.84 Td (Work Product, or \(iii\) Provider's gross negligence or willful misconduct.) Tj ET
+q BT 31.18 534.17 Td 0.727 Tw (8.4 Client shall indemnify Provider from any third-party claims arising from Client's use of the Custom Work Product in) Tj ET Q
+BT 31.18 519.99 Td (violation of this Agreement or applicable law.) Tj ET
+BT /F1 12.00 Tf ET
+BT 31.18 492.46 Td (9. TERMINATION) Tj ET
+BT /F2 10.00 Tf ET
+BT 31.18 468.97 Td (9.1 Either Party may terminate this Agreement for convenience upon sixty \(60\) days' written notice to the other Party.) Tj ET
+q BT 31.18 446.29 Td 1.509 Tw (9.2 Either Party may terminate this Agreement for cause if the other Party materially breaches any provision of this) Tj ET Q
+BT 31.18 432.12 Td (Agreement and fails to cure such breach within thirty \(30\) days after receipt of written notice specifying the breach.) Tj ET
+q BT 31.18 409.44 Td 1.206 Tw (9.3 Upon termination for any reason: \(i\) Client shall pay Provider for all Services satisfactorily performed through the) Tj ET Q
+q BT 31.18 395.27 Td 0.647 Tw (date of termination; \(ii\) Provider shall deliver to Client all completed and in-progress work product; \(iii\) each Party shall) Tj ET Q
+BT 31.18 381.09 Td (return or destroy the other Party's Confidential Information within thirty \(30\) days.) Tj ET
+BT 31.18 358.42 Td (9.4 Sections 4, 5, 8, and 10 shall survive termination or expiration of this Agreement.) Tj ET
+BT /F1 12.00 Tf ET
+BT 31.18 330.89 Td (10. DISPUTE RESOLUTION) Tj ET
+BT /F2 10.00 Tf ET
+q BT 31.18 307.39 Td 2.841 Tw (10.1 The Parties agree to first attempt to resolve any disputes arising under this Agreement through good-faith) Tj ET Q
+BT 31.18 293.22 Td (negotiation for a period of thirty \(30\) days.) Tj ET
+q BT 31.18 270.54 Td 1.883 Tw (10.2 If negotiation is unsuccessful, disputes shall be submitted to binding arbitration administered by the American) Tj ET Q
+BT 31.18 256.37 Td (Arbitration Association \(AAA\) under its Commercial Arbitration Rules. The arbitration shall take place in Austin, Texas.) Tj ET
+q BT 31.18 233.69 Td 1.134 Tw (10.3 This Agreement shall be governed by and construed in accordance with the laws of the State of Texas, without) Tj ET Q
+BT 31.18 219.52 Td (regard to its conflict of laws provisions.) Tj ET
+BT /F1 12.00 Tf ET
+BT 31.18 191.99 Td (11. GENERAL PROVISIONS) Tj ET
+BT /F2 10.00 Tf ET
+q BT 31.18 168.50 Td 1.108 Tw (11.1 Force Majeure. Neither Party shall be liable for delays or failures in performance resulting from acts beyond the) Tj ET Q
+q BT 31.18 154.32 Td 2.069 Tw (reasonable control of such Party, including but not limited to natural disasters, pandemics, government actions, or) Tj ET Q
+BT 31.18 140.15 Td (internet outages, for a period not to exceed ninety \(90\) days.) Tj ET
+q BT 31.18 117.47 Td 0.746 Tw (11.2 Assignment. Neither Party may assign this Agreement without the prior written consent of the other Party, except) Tj ET Q
+q BT 31.18 103.30 Td 1.049 Tw (that either Party may assign this Agreement in connection with a merger, acquisition, or sale of substantially all of its) Tj ET Q
+BT 31.18 89.13 Td (assets.) Tj ET
+
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+q BT 31.18 803.46 Td 0.252 Tw (11.3 Entire Agreement. This Agreement, together with all Exhibits, constitutes the entire agreement between the Parties) Tj ET Q
+BT 31.18 789.28 Td (and supersedes all prior negotiations, proposals, and agreements, whether written or oral.) Tj ET
+BT 31.18 766.61 Td (11.4 Amendments. This Agreement may be amended only by a written instrument signed by both Parties.) Tj ET
+q BT 31.18 743.93 Td 1.161 Tw (11.5 Notices. All notices under this Agreement shall be in writing and sent to the addresses set forth above, or such) Tj ET Q
+BT 31.18 729.76 Td (other addresses as the Parties may designate in writing.) Tj ET
+q BT 31.18 707.08 Td 1.315 Tw (11.6 Non-Solicitation. During the term of this Agreement and for twelve \(12\) months following its termination, neither) Tj ET Q
+q BT 31.18 692.91 Td 0.581 Tw (Party shall directly solicit for employment any employee of the other Party who was involved in the performance of this) Tj ET Q
+BT 31.18 678.73 Td (Agreement.) Tj ET
+BT /F1 11.00 Tf ET
+BT 31.18 623.16 Td (IN WITNESS WHEREOF, the Parties have executed this Agreement as of the Effective Date.) Tj ET
+BT /F2 10.00 Tf ET
+BT 31.18 575.27 Td (PINNACLE DIGITAL SOLUTIONS, INC.) Tj ET
+BT 286.30 575.27 Td (GREENLEAF ENTERPRISES, LLC) Tj ET
+BT 31.18 529.91 Td (_________________________________) Tj ET
+BT 286.30 529.91 Td (_________________________________) Tj ET
+BT 31.18 512.91 Td (Name: Sarah Chen) Tj ET
+BT 286.30 512.91 Td (Name: Michael Torres) Tj ET
+BT 31.18 495.90 Td (Title: Chief Executive Officer) Tj ET
+BT 286.30 495.90 Td (Title: VP of Technology) Tj ET
+BT 31.18 478.89 Td (Date: September 15, 2024) Tj ET
+BT 286.30 478.89 Td (Date: September 15, 2024) Tj ET

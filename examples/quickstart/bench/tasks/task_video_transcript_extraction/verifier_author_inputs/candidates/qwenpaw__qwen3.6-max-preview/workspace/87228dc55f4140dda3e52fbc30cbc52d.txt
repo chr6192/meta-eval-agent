@@ -1,0 +1,40 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+[youtube] dQw4w9WgXcQ: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] dQw4w9WgXcQ: Downloading android vr player API JSON
+[info] Available automatic captions for dQw4w9WgXcQ:
+Language       Name                                               Formats
+ab-en          Abkhazian from English                             vtt, srt, ttml, srv3, srv2, srv1, json3
+aa-en          Afar from English                                  vtt, srt, ttml, srv3, srv2, srv1, json3
+af-en          Afrikaans from English                             vtt, srt, ttml, srv3, srv2, srv1, json3
+ak-en          Akan from English                                  vtt, srt, ttml, srv3, srv2, srv1, json3
+sq-en          Albanian from English                              vtt, srt, ttml, srv3, srv2, srv1, json3
+am-en          Amharic from English                               vtt, srt, ttml, srv3, srv2, srv1, json3
+ar-en          Arabic from English                                vtt, srt, ttml, srv3, srv2, srv1, json3
+hy-en          Armenian from English                              vtt, srt, ttml, srv3, srv2, srv1, json3
+as-en          Assamese from English                              vtt, srt, ttml, srv3, srv2, srv1, json3
+ay-en          Aymara from English                                vtt, srt, ttml, srv3, srv2, srv1, json3
+az-en          Azerbaijani from English                           vtt, srt, ttml, srv3, srv2, srv1, json3
+bn-en          Bangla from English                                vtt, srt, ttml, srv3, srv2, srv1, json3
+ba-en          Bashkir from English                               vtt, srt, ttml, srv3, srv2, srv1, json3
+eu-en          Basque from English                                vtt, srt, ttml, srv3, srv2, srv1, json3
+be-en          Belarusian from English                            vtt, srt, ttml, srv3, srv2, srv1, json3
+bho-en         Bhojpuri from English                              vtt, srt, ttml, srv3, srv2, srv1, json3
+bs-en          Bosnian from English                               vtt, srt, ttml, srv3, srv2, srv1, json3
+br-en          Breton from English                                vtt, srt, ttml, srv3, srv2, srv1, json3
+bg-en          Bulgarian from English                             vtt, srt, ttml, srv3, srv2, srv1, json3
+my-en          Burmese from English                               vtt, srt, ttml, srv3, srv2, srv1, json3
+ca-en          Catalan from English                               vtt, srt, ttml, srv3, srv2, srv1, json3
+ceb-en         Cebuano from English                               vtt, srt, ttml, srv3, srv2, srv1, json3
+zh-Hans-en     Chinese (Simplified) from English                  vtt, srt, ttml, srv3, srv2, srv1, json3
+zh-Hant-en     Chinese (Traditional) from English                 vtt, srt, ttml, srv3, srv2, srv1, json3
+co-en          Corsican from English                              vtt, srt, ttml, srv3, srv2, srv1, json3
+hr-en          Croatian from English                              vtt, srt, ttml, srv3, srv2, srv1, json3
+cs-en          Czech from English                                 vtt, srt, ttml, srv3, srv2, srv1, json3
+da-en          Danish from English                                vtt, srt, ttml, srv3, srv2, srv1, json3
+dv-en          Divehi from English                                vtt, srt, ttml, srv3, srv2, srv1, json3
+nl-en          Dutch from English                                 vtt, srt, ttml, srv3, srv2, srv1, json3
+dz-en          Dzongkha from English                              vtt, srt, ttml, srv3, srv2, srv1, json3
+en-en          English from English                               vtt, srt, ttml, srv3, srv2, srv1, json3
+eo-en          Esperanto from English                             vtt, srt, ttml, srv3, srv2, srv1, json3
+et-en          Estonian from English                              vtt, srt, ttml, srv3, srv2, srv1, json3

@@ -1,0 +1,11 @@
+{
+  "split": "demo",
+  "task_ids": [
+    "task_blog",
+    "task_contract_analysis",
+    "task_meeting_advisory_attendees",
+    "task_video_transcript_extraction",
+    "task_meeting_gov_data_sources",
+    "task_gh_issue_triage"
+  ]
+}

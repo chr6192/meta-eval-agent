@@ -1,0 +1,50 @@
+{
+  "task_id": "task_meeting_gov_data_sources",
+  "dimensions": [
+    {
+      "criterion": "report_created",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "aaro_database",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "faa_radar",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "nasa_satellites",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "citizen_data",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "nasa_portal",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "summary_table",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "__llm_judge_overall__",
+      "depends_on": "llm-judgment",
+      "reachable": false
+    }
+  ],
+  "reachable_weight": 0.5,
+  "llm_judge_weight": 0.5,
+  "grader_reads_gt": false,
+  "needs_manual": true,
+  "extraction_method": "fallback"
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "number": 1,
+    "title": "Critical: Data loss on concurrent writes to shared storage",
+    "state": "open",
+    "labels": ["bug", "critical", "data-loss"],
+    "author": "dev-alice",
+    "created_at": "2026-06-01T10:00:00Z",
+    "updated_at": "2026-06-14T18:30:00Z",
+    "comments": 12,
+    "body": "# Data Loss on Concurrent Writes\n\n## Description\nWhen multiple users write to the shared storage layer simultaneously, data corruption occurs. Records are overwritten without proper locking, leading to partial data loss.\n\n## Steps to Reproduce\n1. Open two sessions writing to the same storage bucket\n2. Session A writes a batch of 1000 records\n3. Session B writes a batch of 500 records to the same key range\n4. ~30% of Session A's records are silently lost\n\n## Impact\n- **Severity**: Critical — production data is being lost\n- **Affected Users**: All teams using shared storage (est. 50+ users)\n- **Business Impact**: Potential regulatory compliance violation if audit trail records are lost\n\n## Environment\n- Version: v2.3.1\n- Platform: Linux (Ubuntu 22.04)\n- Storage Backend: S3-compatible\n\n## Evidence\nAttached logs showing the race condition in the write pipeline. The `StorageWriter` class lacks mutex protection on the `flush()` method.\n\n## Urgency\nThis is blocking production deployments. We need a fix ASAP."
+  },
+  {
+    "number": 2,
+    "title": "Performance degradation with large datasets (>1M rows)",
+    "state": "open",
+    "labels": ["performance", "bug"],
+    "author": "dev-bob",
+    "created_at": "2026-06-03T14:00:00Z",
+    "updated_at": "2026-06-12T09:00:00Z",
+    "comments": 5,
+    "body": "# Performance Degradation with Large Datasets\n\n## Description\nQuery processing time increases exponentially when datasets exceed 1 million rows. Operations that take <1s on 100K rows take >45s on 1M rows.\n\n## Benchmark Results\n| Dataset Size | Query Time | Memory Usage |\n|-------------|-----------|-------------|\n| 100K        | 0.8s      | 200MB       |\n| 500K        | 12s       | 1.2GB       |\n| 1M          | 45s       | 4.8GB       |\n| 2M          | 180s+     | OOM crash   |\n\n## Root Cause Analysis\nThe `DataProcessor.load()` method loads entire datasets into memory before filtering. No streaming or pagination is implemented.\n\n## Suggested Fix\nImplement lazy loading with chunked processing and cursor-based pagination."
+  },
+  {
+    "number": 3,
+    "title": "Security: API endpoint exposes internal server headers",
+    "state": "open",
+    "labels": ["security", "bug", "medium"],
+    "author": "dev-carol",
+    "created_at": "2026-06-05T08:00:00Z",
+    "updated_at": "2026-06-10T12:00:00Z",
+    "comments": 3,
+    "body": "# Security: Internal Server Headers Exposed via API\n\n## Description\nThe `/api/v2/status` endpoint returns response headers that include internal infrastructure details:\n- `X-Server-IP`: Internal IP address (10.0.x.x)\n- `X-Internal-Version`: Build version with internal commit hash\n- `X-Debug-Mode`: Confirms debug mode is enabled in production\n\n## Risk Assessment\n- **Attack Vector**: Information disclosure enabling targeted attacks\n- **OWASP Category**: A01:2021 – Broken Access Control\n- **Severity**: Medium (no direct exploit, but enables further attack planning)\n\n## Recommended Fix\n1. Strip custom headers from all public API responses\n2. Disable debug mode in production configuration\n3. Add security header middleware (CSP, X-Frame-Options, etc.)\n\n## Verification\nConfirmed on production environment at `https://api.my-project.io/api/v2/status`"
+  },
+  {
+    "number": 4,
+    "title": "Feature request: Add dark mode support to the UI",
+    "state": "open",
+    "labels": ["feature", "enhancement", "ui"],
+    "author": "dev-dave",
+    "created_at": "2026-06-08T16:00:00Z",
+    "updated_at": "2026-06-08T16:00:00Z",
+    "comments": 8,
+    "body": "# Feature Request: Dark Mode Support\n\n## Description\nThe current UI only supports a light theme. Adding dark mode would improve:\n- Accessibility for users in low-light environments\n- User preference (commonly requested in feedback surveys)\n- Battery efficiency on OLED screens\n\n## Proposed Implementation\n- CSS custom properties for theme variables\n- Theme toggle in user settings\n- Persist theme preference in localStorage\n- Auto-detect system preference via `prefers-color-scheme`\n\n## User Feedback\nFrom our Q2 survey: 78% of respondents requested dark mode support.\n\n## Mockup\nAttached UI mockup showing light/dark theme variants."
+  },
+  {
+    "number": 5,
+    "title": "Documentation: API reference is outdated for v2 endpoints",
+    "state": "open",
+    "labels": ["documentation", "tech-debt"],
+    "author": "dev-eve",
+    "created_at": "2026-06-10T11:00:00Z",
+    "updated_at": "2026-06-13T14:00:00Z",
+    "comments": 2,
+    "body": "# Documentation: Outdated API Reference\n\n## Description\nThe API reference documentation at `/docs/api-reference.md` is outdated:\n- v2 endpoints are documented with v1 parameters\n- Missing 5 new endpoints introduced in v2.2\n- Response schemas don't match actual API output\n- Authentication examples use deprecated token format\n\n## Impact\n- New developers are confused by mismatched docs\n- Integration partners report errors due to incorrect examples\n- Support team spends ~3hrs/week answering doc-related questions\n\n## Proposed Fix\n- Auto-generate API docs from OpenAPI schema\n- Add CI check to validate docs match actual endpoints\n- Schedule quarterly doc review"
+  },
+  {
+    "number": 6,
+    "title": "Bug: CSV export fails for datasets with special characters",
+    "state": "open",
+    "labels": ["bug", "minor"],
+    "author": "dev-frank",
+    "created_at": "2026-06-11T09:00:00Z",
+    "updated_at": "2026-06-11T09:00:00Z",
+    "comments": 1,
+    "body": "# CSV Export Failure with Special Characters\n\n## Description\nThe CSV export function crashes when dataset fields contain Unicode characters (emojis, CJK characters) or special characters (newlines, quotes) in field values.\n\n## Error\n```\nUnicodeEncodeError: 'ascii' codec can't encode character U+1F600\n```\n\n## Root Cause\nThe CSV writer uses ASCII encoding instead of UTF-8, and doesn't escape special characters per RFC 4180.\n\n## Fix\nChange encoding to UTF-8 and implement proper CSV escaping."
+  }
+]
