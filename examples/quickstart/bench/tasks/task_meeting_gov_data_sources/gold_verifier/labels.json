@@ -1,0 +1,182 @@
+{
+  "task_id": "task_meeting_gov_data_sources",
+  "grading_type": "hybrid",
+  "candidates": {
+    "qwenpaw__glm-5.1": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.aaro_database": 1.0,
+        "automated.faa_radar": 1.0,
+        "automated.adsb": 1.0,
+        "automated.nasa_satellites": 1.0,
+        "automated.citizen_data": 1.0,
+        "automated.nasa_portal": 1.0,
+        "automated.limitations": 1.0,
+        "automated.categorization": 1.0,
+        "automated.summary_table": 1.0,
+        "llm_judge.Source Identification Completeness": 1.0,
+        "llm_judge.Technical Accuracy": 1.0,
+        "llm_judge.Limitation Analysis": 1.0,
+        "llm_judge.Organization and Presentation": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__kimi-k2.6": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.aaro_database": 1.0,
+        "automated.faa_radar": 1.0,
+        "automated.adsb": 1.0,
+        "automated.nasa_satellites": 1.0,
+        "automated.citizen_data": 1.0,
+        "automated.nasa_portal": 1.0,
+        "automated.limitations": 1.0,
+        "automated.categorization": 1.0,
+        "automated.summary_table": 1.0,
+        "llm_judge.source_identification_completeness": 1.0,
+        "llm_judge.technical_accuracy": 1.0,
+        "llm_judge.limitation_analysis": 1.0,
+        "llm_judge.organization_and_presentation": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-27b": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.aaro_database": 1.0,
+        "automated.faa_radar": 1.0,
+        "automated.adsb": 1.0,
+        "automated.nasa_satellites": 1.0,
+        "automated.citizen_data": 1.0,
+        "automated.nasa_portal": 1.0,
+        "automated.limitations": 1.0,
+        "automated.categorization": 1.0,
+        "automated.summary_table": 1.0,
+        "llm_judge.Source Identification Completeness": 1.0,
+        "llm_judge.Technical Accuracy": 1.0,
+        "llm_judge.Limitation Analysis": 1.0,
+        "llm_judge.Organization and Presentation": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-35b-a3b": {
+      "passed": false,
+      "score": 0.125,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.aaro_database": 0.0,
+        "automated.faa_radar": 0.0,
+        "automated.adsb": 0.0,
+        "automated.nasa_satellites": 0.0,
+        "automated.citizen_data": 0.0,
+        "automated.nasa_portal": 0.0,
+        "automated.limitations": 0.0,
+        "automated.categorization": 0.5,
+        "automated.summary_table": 1.0,
+        "llm_judge.Source Identification Completeness": 0.0,
+        "llm_judge.Technical Accuracy": 0.0,
+        "llm_judge.Limitation Analysis": 0.0,
+        "llm_judge.Organization and Presentation": 0.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-max-preview": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.aaro_database": 1.0,
+        "automated.faa_radar": 1.0,
+        "automated.adsb": 1.0,
+        "automated.nasa_satellites": 1.0,
+        "automated.citizen_data": 1.0,
+        "automated.nasa_portal": 1.0,
+        "automated.limitations": 1.0,
+        "automated.categorization": 1.0,
+        "automated.summary_table": 1.0,
+        "llm_judge.Source Identification Completeness": 1.0,
+        "llm_judge.Technical Accuracy": 1.0,
+        "llm_judge.Limitation Analysis": 1.0,
+        "llm_judge.Organization and Presentation": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-plus": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.aaro_database": 1.0,
+        "automated.faa_radar": 1.0,
+        "automated.adsb": 1.0,
+        "automated.nasa_satellites": 1.0,
+        "automated.citizen_data": 1.0,
+        "automated.nasa_portal": 1.0,
+        "automated.limitations": 1.0,
+        "automated.categorization": 1.0,
+        "automated.summary_table": 1.0,
+        "llm_judge.Source Identification Completeness": 1.0,
+        "llm_judge.Technical Accuracy": 1.0,
+        "llm_judge.Limitation Analysis": 1.0,
+        "llm_judge.Organization and Presentation": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.7-max": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.aaro_database": 1.0,
+        "automated.faa_radar": 1.0,
+        "automated.adsb": 1.0,
+        "automated.nasa_satellites": 1.0,
+        "automated.citizen_data": 1.0,
+        "automated.nasa_portal": 1.0,
+        "automated.limitations": 1.0,
+        "automated.categorization": 1.0,
+        "automated.summary_table": 1.0,
+        "llm_judge.Source Identification Completeness": 1.0,
+        "llm_judge.Technical Accuracy": 1.0,
+        "llm_judge.Limitation Analysis": 1.0,
+        "llm_judge.Organization and Presentation": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.7-plus": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "automated.report_created": 1.0,
+        "automated.aaro_database": 1.0,
+        "automated.faa_radar": 1.0,
+        "automated.adsb": 1.0,
+        "automated.nasa_satellites": 1.0,
+        "automated.citizen_data": 1.0,
+        "automated.nasa_portal": 1.0,
+        "automated.limitations": 1.0,
+        "automated.categorization": 1.0,
+        "automated.summary_table": 1.0,
+        "llm_judge.Source Identification Completeness": 1.0,
+        "llm_judge.Technical Accuracy": 1.0,
+        "llm_judge.Limitation Analysis": 1.0,
+        "llm_judge.Organization and Presentation": 1.0
+      },
+      "source": "framework_results"
+    }
+  }
+}

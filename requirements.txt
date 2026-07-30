@@ -1,0 +1,8 @@
+# benchmark/tools/ 运行时零第三方依赖，只用 Python 标准库（stdlib-only 是本项目对
+# grader.py 的硬约束，工具链本身也遵循同一原则，见 CONSTITUTION.md）。
+# 本文件仅列开发/测试期依赖。
+#
+# 安装：pip install -r requirements.txt
+# Python 版本：3.10+（f-string / match 语法要求；本仓库开发环境用 3.13）
+
+pytest>=7.0

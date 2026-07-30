@@ -1,0 +1,110 @@
+{
+  "task_id": "task_video_transcript_extraction",
+  "grading_type": "llm_judge",
+  "candidates": {
+    "qwenpaw__glm-5.1": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "criterion_1_transcript_extraction": 1.0,
+        "criterion_2_summary_quality": 1.0,
+        "criterion_3_structure_and_metadata": 1.0,
+        "criterion_4_key_points_and_timestamps": 1.0,
+        "criterion_5_technical_execution": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__kimi-k2.6": {
+      "passed": false,
+      "score": 0.95,
+      "max_score": 1.0,
+      "breakdown": {
+        "Transcript Extraction": 1.0,
+        "Summary Quality": 1.0,
+        "Structure and Metadata": 1.0,
+        "Key Points and Timestamps": 1.0,
+        "Technical Execution": 0.5
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-27b": {
+      "passed": false,
+      "score": 0.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "transcript_extraction": 0.0,
+        "summary_quality": 0.0,
+        "structure_and_metadata": 0.0,
+        "key_points_and_timestamps": 0.0,
+        "technical_execution": 0.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-35b-a3b": {
+      "passed": false,
+      "score": 0.975,
+      "max_score": 1.0,
+      "breakdown": {
+        "transcript_extraction": 1.0,
+        "summary_quality": 1.0,
+        "structure_and_metadata": 1.0,
+        "key_points_and_timestamps": 1.0,
+        "technical_execution": 0.75
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-max-preview": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "Transcript Extraction": 1.0,
+        "Summary Quality": 1.0,
+        "Structure and Metadata": 1.0,
+        "Key Points and Timestamps": 1.0,
+        "Technical Execution": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.6-plus": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "criterion_1_transcript_extraction": 1.0,
+        "criterion_2_summary_quality": 1.0,
+        "criterion_3_structure_and_metadata": 1.0,
+        "criterion_4_key_points_and_timestamps": 1.0,
+        "criterion_5_technical_execution": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.7-max": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "transcript_extraction": 1.0,
+        "summary_quality": 1.0,
+        "structure_and_metadata": 1.0,
+        "key_points_and_timestamps": 1.0,
+        "technical_execution": 1.0
+      },
+      "source": "framework_results"
+    },
+    "qwenpaw__qwen3.7-plus": {
+      "passed": true,
+      "score": 1.0,
+      "max_score": 1.0,
+      "breakdown": {
+        "criterion_1_transcript_extraction": 1.0,
+        "criterion_2_summary_quality": 1.0,
+        "criterion_3_structure_and_metadata": 1.0,
+        "criterion_4_key_points_and_timestamps": 1.0,
+        "criterion_5_technical_execution": 1.0
+      },
+      "source": "framework_results"
+    }
+  }
+}

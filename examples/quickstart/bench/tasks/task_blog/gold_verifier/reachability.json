@@ -1,0 +1,40 @@
+{
+  "task_id": "task_blog",
+  "dimensions": [
+    {
+      "criterion": "file_created",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "word_count_target",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "has_structure",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "covers_remote_work",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "covers_dev_benefits",
+      "depends_on": "workspace",
+      "reachable": true
+    },
+    {
+      "criterion": "__llm_judge_overall__",
+      "depends_on": "llm-judgment",
+      "reachable": false
+    }
+  ],
+  "reachable_weight": 0.6,
+  "llm_judge_weight": 0.4,
+  "grader_reads_gt": false,
+  "needs_manual": true,
+  "extraction_method": "fallback"
+}
